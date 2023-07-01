@@ -62,11 +62,3 @@ while True:
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-
-import os
-
-output_file = 'output.mp4'
-if os.path.isfile(output_file):
-    print(f"The file {output_file} exists.")
-else:
-    print(f"The file {output_file} does not exist.")
