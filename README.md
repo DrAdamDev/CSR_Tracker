@@ -1,4 +1,4 @@
-# Object Tracking with CSRT in Python
+# Object Tracking with CSRT
 
 ## Overview
 This Python script uses OpenCV's CSRT tracker for object tracking in videos. It allows users to select two objects in the first frame of a video and tracks these objects throughout the video.
