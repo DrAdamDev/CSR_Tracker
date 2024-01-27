@@ -25,7 +25,7 @@ ok1 = tracker1.init(frame, bbox1)
 ok2 = tracker2.init(frame, bbox2)
 
 # Specify the output video file
-output_file = 'output.mp4'
+output_file = '/home/dradamdev/Projects/PythonProjects/output.mp4'
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 fps = cap.get(cv2.CAP_PROP_FPS)
